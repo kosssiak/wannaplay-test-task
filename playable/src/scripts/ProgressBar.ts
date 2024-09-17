@@ -37,7 +37,7 @@ export class ProgressBar extends Container {
     }
 
     async start() {
-        this.progressTween = this.mask.tweens.create(this.mask.node, { x: -this.mask.node.width }, 10000, {
+        this.progressTween = this.mask.tweens.create(this.mask.node, { x: -this.mask.node.width }, 15000, {
             onUpdate: (sprite, k) => {
                 if (k > 0.4) {
                     const color = Utils.lerpColor(0x80be1f, 0xbe1f1f, (k - 0.4) * 3);
