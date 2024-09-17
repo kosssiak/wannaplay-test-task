@@ -11,30 +11,30 @@ This project consists of two main directories:
 
 To run the project properly, you need to install dependencies in both directories:
 
-1. Navigate to the `builder` directory and run the following command:
+1. Navigate to the **builder** directory and run the following command:
 
-   npm install
+   `npm install`
 
-2. Navigate to the `playable` directory and run the following command:
+2. Navigate to the **playable** directory and run the following command:
 
-   npm install
+   `npm install`
 
 ## Scripts
 
 1. Launches the playable in development mode:
 
-   npm run dev
+   `npm run dev`
 
-   The project will be available at: localhost:8080.
+   The project will be available at: `localhost:8080`.
 
 2. Builds the playable for production:
 
-   npm run build
+   `npm run build`
 
-   Builds are saved in playable/builds.
+   Builds are saved in `playable/builds`.
 
 3. Loads necessary playable assets:
 
-   npm run assets
+   `npm run assets`
 
-   All assets are located in playable/src/img.
+   All assets are located in `playable/src/img`.
